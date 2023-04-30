@@ -1,0 +1,63 @@
+@import"./component/lead";
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    margin: 5% 8%;
+    span{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    ul{
+        display: flex;
+        li{
+            margin-right: 20px;
+            font-size:18px;
+            color: #9895c2
+        }
+        .buts{
+            background:$main_theme;
+            color: #ffffff;
+            border-radius: 18px;
+            width: 90px;
+            padding-left: 12px;
+            padding-top: 2px;
+            height: 32px;
+            margin-top: -2px;
+        }
+    }
+
+}
+
+.text{
+    text-align: center;
+    h1{
+        font-size: 60px;
+        margin-top: 8%;
+        font-weight: bold;
+        margin-bottom: 1%;
+    }
+    p{
+        font-size: 20px;
+        color: #9895c2;
+        white-space: pre-line;
+        margin-bottom: 6%;
+    }
+}
+.end{
+    text-align: center;
+    button{
+        background: $main_theme;
+        color: #ffffff;
+        border: none;
+        border-radius: 20px;
+        width: 250px;
+        height: 40px;
+        font-size: 16px;
+        margin-bottom: 1%;
+    }
+    p{
+        color: $main_theme;
+    }
+}
+
