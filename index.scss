@@ -12,21 +12,21 @@ nav{
         display: flex;
         li{
             margin-right: 20px;
-            font-size:18px;
+            font-size: 18px;
             color: #9895c2
         }
-        .buts{
-            background:$main_theme;
+        button{
+            background: $main_theme;
             color: #ffffff;
             border-radius: 18px;
             width: 90px;
+            border: none;
             padding-left: 12px;
             padding-top: 2px;
             height: 32px;
             margin-top: -2px;
-        }
+        } 
     }
-
 }
 
 .text{
@@ -60,4 +60,3 @@ nav{
         color: $main_theme;
     }
 }
-

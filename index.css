@@ -37,11 +37,12 @@ nav ul li {
   font-size: 18px;
   color: #9895c2;
 }
-nav ul .buts {
+nav ul button {
   background: #3ae2e2;
   color: #ffffff;
   border-radius: 18px;
   width: 90px;
+  border: none;
   padding-left: 12px;
   padding-top: 2px;
   height: 32px;
